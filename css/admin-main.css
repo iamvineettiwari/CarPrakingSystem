@@ -1,0 +1,93 @@
+nav {
+    background-color : #000529 !important;
+    z-index: 99999 !important;
+}
+
+.brand-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+}
+
+footer {
+    padding: 29px 0px 0px 0px;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.last-footer {
+    background-color: #000529;
+    padding: 15px 0px;
+}
+
+.last-footer p {
+    font-weight: bold;
+}
+
+.theme-head {
+    background-color: #000529;
+}
+
+.theme-head-text {
+    color: #000529;
+}
+
+.main-welcome {
+    margin-top: 10vh;
+    border-radius: 5px;
+    padding: 30px 20px !important;
+    box-shadow: 1px 2px 30px #e2e2e2;
+}
+
+#loadDataPanel {
+    width: 100%;
+    position: relative;
+}
+
+#myLoader {
+    margin: 120px 0px;
+}
+
+.madmin-head {
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 100vh !important;
+}
+
+.mapboxgl-canvas {
+    width: 100%;
+}
+.vmap {
+    height: 100%;
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.map-content {
+    position: absolute !important;
+    height: 100%;
+    left: 20px;
+    z-index: 44444444;
+}
+
+@media only screen and (min-width: 993px) {
+    .sidenav-trigger {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .brand-logo {
+        margin: 5px 10px;
+    }
+    #myLoader {
+        margin: 60px 0px;
+    }
+}

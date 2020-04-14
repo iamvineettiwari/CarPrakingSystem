@@ -1,0 +1,71 @@
+nav {
+    background-color : #000529 !important;
+    z-index: 99999 !important;
+}
+
+.brand-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+footer {
+    padding: 29px 0px 0px 0px;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.last-footer {
+    background-color: #000529;
+    padding: 15px 0px;
+}
+
+.last-footer p {
+    font-weight: bold;
+}
+
+.theme-head {
+    background-color: #000529;
+}
+
+.theme-head-text {
+    color: #000529;
+}
+
+.login-form {
+    margin: 60px 0px;
+}
+
+.login-form-body {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 15px #ccc;
+    padding: 0px 35px;
+}
+
+.no-top-mar {
+    margin-top: 0px !important;
+}
+
+.no-bot-mar {
+    margin-bottom: 0px !important;
+}
+
+
+.reg.row {
+    margin-bottom: 0px !important;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (min-width: 993px) {
+.sidenav-trigger {
+    display: block !important;
+}
+}
+
+@media screen and (max-width: 602px) {
+    .brand-logo {
+        margin: 5px 10px;
+    }
+}
